@@ -1,0 +1,50 @@
+.image{
+    width: 20%;
+    height: 70%;
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+}
+.image img{
+    position: absolute;
+    height: 130%;
+    transform: translate(-100%);
+    bottom: 0;
+  
+} 
+body{
+    width: 95%;
+  background-image: url(ba.jpeg);
+  background-position: c;
+  background-size: cover;
+}
+.text{
+position: absolute;
+margin-left: 50%;
+margin-top: 5%;
+font-size: 150%;
+right: 10%;
+font-weight: 40%;
+font-family:'Times New Roman', Times, serif;
+text-justify: newspaper;
+color: rgb(215, 59, 142);
+}
+.text h1{
+    color: brown;
+}
+.link{
+    border: 2px solid black;
+    border-radius: 30px;
+    text-decoration: none;
+    list-style-type: none;
+    width: 10%;
+    text-align: center;
+    margin-left: 80%;
+    background-color: rgb(221, 84, 221);
+}
+.link:hover{
+    background-color: aqua;
+}
+.link a{
+    text-decoration: none;
+}
